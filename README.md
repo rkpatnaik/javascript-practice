@@ -2,23 +2,32 @@
 
 My hands-on journey learning JavaScript fundamentals in preparation for Playwright automation.
 
-This repo contains small, focused `.js` files that cover core concepts of JavaScript in a clear, beginner-friendly way.
+This repo contains small, focused `.js` files that cover core JavaScript concepts in a beginner-friendly way, with comments and hands-on examples.
 
 ---
 
 ## 📂 File Overview
 
-| File Name                   | Description                                                                         |
-| --------------------------- | ----------------------------------------------------------------------------------- |
-| **01-variables.js**         | Declaring and using variables with `var`, `let`, and `const`                        |
-| **02-variable-scope.js**    | Understanding function scope with `var`                                             |
-| **03-let-const-scope.js**   | Block scope differences between `let` and `const`                                   |
-| **04-hoisting-examples.js** | How hoisting works with `var`, `let`, and functions                                 |
-| **05-data-types.js**        | JavaScript data types: string, number, boolean, null, undefined, symbol, and object |
-| **06-objects.js**           | Creating and using objects, accessing properties, looping through objects           |
-| **07-array.js**             | Array basics: declaration, access, looping with `for`, `for...of`                   |
-| **08-functions.js**         | Function declarations, expressions, arrow functions, return values                  |
-| **09-conditionals.js**      | Using `if`, `else if`, `else`, and comparison operators                             |
+| File Name                        | Description                                              |
+| -------------------------------- | -------------------------------------------------------- | --- | ------------------------------ |
+| **01-variables.js**              | Declaring variables using `var`, `let`, and `const`      |
+| **02-variable-scope.js**         | Function scope using `var`                               |
+| **03-let-const-scope.js**        | Block scope with `let` and `const`                       |
+| **04-hoisting-examples.js**      | Hoisting of variables and functions                      |
+| **05-data-types.js**             | Primitive and reference data types                       |
+| **06-objects.js**                | Creating, accessing, and updating objects                |
+| **07-array-basics.js**           | Creating arrays and looping through them                 |
+| **08-array-methods-basic.js**    | `push`, `pop`, `shift`, `unshift`, `indexOf`, `includes` |
+| **09-array-methods-advanced.js** | `slice`, `concat`, `join`                                |
+| **10-array-sorting.js**          | `sort`, `reverse` with strings and numbers               |
+| **11-array-higher-order.js**     | Using `map`, `filter`, `reduce`, `forEach`               |
+| **12-functions.js**              | Function declarations, expressions, arrow functions      |
+| **13-conditionals.js**           | `if`, `else if`, ternary operator                        |
+| **14-comparison-operators.js**   | `==`, `===`, `!=`, `!==`, `>`, `<`, etc.                 |
+| **15-logical-operators.js**      | `&&`, `                                                  |     | `, `!` and logical expressions |
+| **16-switch.js**                 | `switch-case` statements                                 |
+| **17-loops.js**                  | `for`, `while`, `do...while`, `for...of`, `for...in`     |
+| **index.html**                   | Basic HTML file for browser testing (optional)           |
 
 ---
 
@@ -26,15 +35,23 @@ This repo contains small, focused `.js` files that cover core concepts of JavaSc
 
 To build a strong foundation in JavaScript before progressing to:
 
-- TypeScript for type safety
-- Playwright for modern end-to-end testing
+- 🟦 **TypeScript** – for type safety and scalability
+- 🧪 **Playwright** – for modern browser automation and E2E testing
 
 ---
 
 ## 🧪 How to Run
 
-Each `.js` file is standalone and can be executed with:
+You can run any of the JavaScript files using:
 
 ```bash
 node filename.js
 ```
+
+> Example:
+
+```bash
+node 08-array-methods-basic.js
+```
+
+Or open `index.html` in your browser to experiment in the console.
