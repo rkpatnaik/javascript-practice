@@ -47,11 +47,3 @@ You can run any of the JavaScript files using:
 ```bash
 node filename.js
 ```
-
-> Example:
-
-```bash
-node 08-array-methods-basic.js
-```
-
-Or open `index.html` in your browser to experiment in the console.
