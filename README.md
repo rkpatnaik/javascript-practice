@@ -9,7 +9,7 @@ This repo contains small, focused `.js` files that cover core JavaScript concept
 ## 📂 File Overview
 
 | File Name                        | Description                                              |
-| -------------------------------- | -------------------------------------------------------- |
+| -------------------------------- | -------------------------------------------------------- | --- | ------------------------------ |
 | **01-variables.js**              | Declaring variables using `var`, `let`, and `const`      |
 | **02-variable-scope.js**         | Function scope using `var`                               |
 | **03-let-const-scope.js**        | Block scope with `let` and `const`                       |
@@ -24,9 +24,10 @@ This repo contains small, focused `.js` files that cover core JavaScript concept
 | **12-functions.js**              | Function declarations, expressions, arrow functions      |
 | **13-conditionals.js**           | `if`, `else if`, ternary operator                        |
 | **14-comparison-operators.js**   | `==`, `===`, `!=`, `!==`, `>`, `<`, etc.                 |
-| **15-logical-operators.js**      | `&&`, `||`, `!` and logical expressions                  |
+| **15-logical-operators.js**      | `&&`, `                                                  |     | `, `!` and logical expressions |
 | **16-switch.js**                 | `switch-case` statements                                 |
 | **17-loops.js**                  | `for`, `while`, `do...while`, `for...of`, `for...in`     |
+| **18-strings.js**                | Basics of Strings, String methods                        |
 | **index.html**                   | Basic HTML file for browser testing (optional)           |
 
 ---
